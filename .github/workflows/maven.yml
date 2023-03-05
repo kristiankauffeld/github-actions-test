@@ -25,7 +25,7 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
       - name: Run tests
-        run: mvn -B test --file pom.xml
+        run: mvn test
     
   build:
     needs: test
